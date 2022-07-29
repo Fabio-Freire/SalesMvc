@@ -13,7 +13,7 @@ type HomeController () =
         this.View()
 
     member this.About () =
-        this.ViewData.["Message"] <- "Your application description page."
+        this.ViewData.["Message"] <- "Pagina de teste de um sistema ASP.NET Core MVC"
         this.View()
 
     member this.Contact () =
